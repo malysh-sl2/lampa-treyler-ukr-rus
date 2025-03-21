@@ -1,0 +1,12 @@
+{
+  "id": "youtube_trailers",
+  "name": "YouTube Трейлери",
+  "version": "1.0",
+  "description": "Додає трейлери з YouTube українською та російською",
+  "author": "Ярослав",
+  "type": "video",
+  "plugin": {
+    "js": "https://raw.githubusercontent.com/ТВОЄ_ІМ'Я_НА_GITHUB/lampa-youtube-plugin/main/plugin.js",
+    "css": ""
+  }
+}
