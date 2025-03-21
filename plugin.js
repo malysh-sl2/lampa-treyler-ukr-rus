@@ -3,8 +3,9 @@ Lampa.Plugins.add({
     version: "1.0",
     description: "Додає трейлери з YouTube українською та російською",
     onStart: function() {
+        console.log('Plugin started');
         Lampa.Listener.follow('full', function(e) {
-            if (e.type === 'complite') {
+            if (e.type === 'complete') {
                 let movieTitle = e.data.movie.title;
                 let youtubeSearchURL = `https://www.youtube.com/results?search_query=${encodeURIComponent(movieTitle + " трейлер українською")}`;
 
